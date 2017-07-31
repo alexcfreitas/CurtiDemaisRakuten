@@ -1,0 +1,88 @@
+
+
+
+.header-topo{
+	background: $backCinza;
+	font-family: $font-textos;
+	font-weight: 400;
+	height: 27px;
+font-size: 12px;
+	.inputSearch{
+		input {
+			background-color: $corInputSearch;
+			border: 0px solid silver;
+			height: 27px;
+			min-width: 261px;
+			color: #000000;
+			font-size: 12px;
+			padding-left: 5px;
+
+		}
+		span {
+			position: absolute;
+			background-color:#f2f2f2;
+			border: 1px solid #000;
+			width: 26px!important;
+			height:26px!important;
+			color:#000;
+			img {
+				padding-top:6px;		
+			}	
+		}
+	}
+	.login-logado{
+		margin-top:6px;
+		padding-left: 30px;
+		img{
+			margin-right: 8px;
+		}
+		span{																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+			margin: auto;
+			color: #000000!important;
+			margin-right: 30px;	
+		}
+	}
+	.my-bag {
+		background-color: #000;
+		padding: 4px;
+		img{
+			margin-left: 13%;
+		}
+		span {
+			color: #ffffff!important;
+		}
+	}
+	.title{
+		font-family: 'Great Vibes', cursive;
+		font-size: 48px;
+		text-align: center;
+		padding: 10px;
+		color: #000;
+	}
+}
+.menu {
+	text-align: center;
+	padding:  0 10px 15px;
+	color: #000;
+	border-bottom: 1px solid #e6e6e6;
+	.shop{
+		color:#aeacac;
+		padding-right: 15px;
+	}
+	.options{
+		padding: 0 26px;
+text-transform: uppercase;
+		color: #4c4c4c;
+		.opt{
+			padding: 10px;	
+		}
+	}
+	
+}
+input:focus {
+	outline: 0px;
+}
+
+input::placeholder {
+	color: #000000!important;
+}
